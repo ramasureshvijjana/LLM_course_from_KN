@@ -3,3 +3,4 @@ langchain-openai
 ipykernel
 python-dotenv
 langchain-community
+pypdf # Used for load the pdf files in LangChain
