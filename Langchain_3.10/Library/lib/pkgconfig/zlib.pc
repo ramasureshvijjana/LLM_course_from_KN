@@ -1,0 +1,13 @@
+prefix=E:/Gen_AI/LLM_course_from_KN/Langchain_3.10/Library
+exec_prefix=E:/Gen_AI/LLM_course_from_KN/Langchain_3.10/Library
+libdir=E:/Gen_AI/LLM_course_from_KN/Langchain_3.10/Library/lib
+sharedlibdir=E:/Gen_AI/LLM_course_from_KN/Langchain_3.10/Library/lib
+includedir=E:/Gen_AI/LLM_course_from_KN/Langchain_3.10/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
