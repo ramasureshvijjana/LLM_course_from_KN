@@ -8,3 +8,4 @@ bs4 # bs - BeautifulSoup : library for web scraping and parsing HTML or XML docu
 arxiv # Used to load research papers (IEEE) from arxiv community. Resource Link: https://python.langchain.com/v0.1/docs/integrations/providers/arxiv/#document-loader
 pymupdf # Dependent library of "arxiv".
 wikipedia # Used to load wikipedia web-site data. Resource Link: https://python.langchain.com/v0.1/docs/integrations/document_loaders/wikipedia/#examples
+langchain_text_splitters # Used split the documents : In RAG STAGE - 2
