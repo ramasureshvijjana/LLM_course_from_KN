@@ -14,5 +14,6 @@ chroma # To use vector store Chroma DB.
 langchain_openai # To use open AI models.
 sentence-transformers # To use HuggingFace models.
 langchain-huggingface # To use HuggingFace models.
+faiss-cpu # To use FAISS vector store DB.
 
  
