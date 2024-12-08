@@ -3,6 +3,7 @@ langchain-openai
 ipykernel
 python-dotenv
 langchain-community
+langchain_core
 pypdf # Used for load the pdf files in LangChain
 bs4 # bs - BeautifulSoup : library for web scraping and parsing HTML or XML documents
 arxiv # Used to load research papers (IEEE) from arxiv community. Resource Link: https://python.langchain.com/v0.1/docs/integrations/providers/arxiv/#document-loader
@@ -16,5 +17,6 @@ sentence-transformers # To use HuggingFace models.
 langchain-huggingface # To use HuggingFace models.
 faiss-cpu # To use FAISS vector store DB.
 chromadb # To use Chroma vector store DB.
+langchain_groq # To use free groq interface llms.
 
  
