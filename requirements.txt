@@ -18,5 +18,9 @@ langchain-huggingface # To use HuggingFace models.
 faiss-cpu # To use FAISS vector store DB.
 chromadb # To use Chroma vector store DB.
 langchain_groq # To use free groq interface llms.
+unstructured # To load websites by using UnstructuredURLLoader
+libmagic # To load websites by using UnstructuredURLLoader
+python-magic # To load websites by using UnstructuredURLLoader
+python-magic-bin # To load websites by using UnstructuredURLLoader
 
  
