@@ -4,6 +4,7 @@ ipykernel
 python-dotenv
 langchain-community
 langchain_core
+pandas
 pypdf # Used for load the pdf files in LangChain
 bs4 # bs - BeautifulSoup : library for web scraping and parsing HTML or XML documents
 arxiv # Used to load research papers (IEEE) from arxiv community. Resource Link: https://python.langchain.com/v0.1/docs/integrations/providers/arxiv/#document-loader
