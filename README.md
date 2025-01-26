@@ -15,3 +15,9 @@ conda activate E:\Gen_AI\LLM_course_from_KN\Langchain_3.10
 ```bash
 pip install -r requirements.txt
 ```  
+
+> Comment to start ollama in the local:  
+
+```bash
+ollama serve
+```  
