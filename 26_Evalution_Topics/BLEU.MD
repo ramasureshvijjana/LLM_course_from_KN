@@ -3,7 +3,7 @@
 ## What is BLEU?
 
 **BLEU** stands for **Bilingual Evaluation Understudy**.  
-It is an automatic evaluation metric for comparing a candidate (machine-generated) text to one or more reference (human-written) texts. BLEU is widely used for evaluating machine translation, but also applicable for other text generation tasks.
+It is an automatic evaluation metric for comparing a **candidate (machine-generated) text to one or more reference (human-written) texts**. BLEU is widely used for evaluating machine translation, but also applicable for other text generation tasks.
 
 ---
 
@@ -139,6 +139,14 @@ For up to 3-gram (\( N=3 \)), uniform weights (\( w_n = \frac{1}{3} \)):
 | 3      | 0.2                   |
 
 **BLEU = BP × exp(mean log precision) ≈ 0.415**
+
+---
+
+## BLEU Score Value Cutoffs
+
+1. BLEU ranges from **0 (no match) to 1 (perfect match)**.
+2. **1** (or 100%) is the most **perfect** BLEU score (exact match to reference).
+3. Higher values mean closer candidate to reference; **typical good scores are 0.3–0.6**.
 
 ---
 
